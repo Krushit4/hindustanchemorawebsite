@@ -9,8 +9,12 @@ import type { Metadata } from 'next'
 import { Suspense } from 'react'
 import './globals.css'
 
-const title = 'OSS Vibe Coding Platform'
-const description = `This is a demo of an end-to-end coding platform where the user can enter text prompts, and the agent will create a full stack application. It uses Vercel's AI Cloud services like Sandbox for secure code execution, AI Gateway for GPT-5 and other models support, Fluid Compute for efficient rendering and streaming, and it's built with Next.js and the AI SDK.`
+const title = 'Hindustan Chemora'
+const description = `Hindustan Chemora is a Mumbai-based industrial chemical trading and sourcing company engaged in providing reliable supply solutions for manufacturers, distributors, and industrial clients across India.
+
+We specialize in connecting verified chemical manufacturers with genuine buyers, ensuring smooth procurement, consistent quality, and cost-efficient supply chain operations.
+
+Our focus is on building long-term business relationships through transparency, reliability, and consistent performance.`
 
 export const metadata: Metadata = {
   title,

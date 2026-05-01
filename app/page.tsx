@@ -14,7 +14,7 @@ export default async function Page() {
   const store = await cookies()
   return (
     <div className="flex items-center justify-center h-screen">
-      <h1 className="text-6xl font-bold">Coming Soon.</h1>
+      <h1 className="text-6xl font-bold text-center">Coming Soon.</h1>
     </div>
   )
 }
