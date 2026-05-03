@@ -1,20 +1,26 @@
-import { Chat } from './chat'
-import { FileExplorer } from './file-explorer'
-import { Header } from './header'
-import { Horizontal, Vertical } from '@/components/layout/panels'
-import { Logs } from './logs'
-import { Preview } from './preview'
-import { TabContent, TabItem } from '@/components/tabs'
-import { Welcome } from '@/components/modals/welcome'
-import { cookies } from 'next/headers'
-import { getHorizontal, getVertical } from '@/components/layout/sizing'
-import { hideBanner } from '@/app/actions'
 
-export default async function Page() {
-  const store = await cookies()
+import React from "react";
+import Navbar from "../components/landing/Navbar";
+import Stats from "../components/landing/Stats";
+import Products from "../components/landing/Products";
+import WhyUs from "../components/landing/WhyUs";
+import Hero from "../components/landing/Hero";
+import Industries from "../components/landing/Industries";
+import ContactForm from "../components/landing/ContactForm";
+import Footer from "../components/landing/Footer";
+import './globals.css'
+
+export default function Landing() {
   return (
-    <div className="flex items-center justify-center h-screen">
-      <h1 className="text-6xl font-bold text-center">Coming Soon.</h1>
-    </div>
-  )
+    <main className="min-h-screen bg-ink-900 text-white font-body grain-overlay overflow-x-hidden">
+      <Navbar />
+      <Hero />
+      <Stats />
+      <Products />
+      <WhyUs />
+      <Industries />
+      <ContactForm />
+      <Footer />
+    </main>
+  );
 }
