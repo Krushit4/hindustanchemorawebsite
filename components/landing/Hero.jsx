@@ -20,12 +20,7 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-7xl mx-auto w-full px-6 md:px-10 pt-32 pb-20">
         <div className="max-w-3xl animate-fade-up">
-          <div className="inline-flex items-center gap-2 border border-gold-400/30 bg-black/50 backdrop-blur px-4 py-1.5 rounded-full mb-8" data-testid="hero-badge">
-            <ShieldCheck size={14} className="text-gold-400" />
-            <span className="text-[11px] uppercase tracking-[0.25em] text-gold-400 font-semibold">
-              ISO Certified Manufacturer
-            </span>
-          </div>
+          
 
           <h1 className="font-heading text-white font-medium text-4xl sm:text-5xl lg:text-7xl tracking-tighter leading-[1.02]">
             Premium Chemicals
@@ -34,7 +29,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-8 text-neutral-300 text-base sm:text-lg max-w-2xl leading-relaxed">
-            Hindustan Chemora Industries manufactures high-purity industrial chemicals
+            Hindustan Chemora Industries provides high-purity industrial chemicals
             and precision packaging solutions for the world's most demanding brands —
             delivered with uncompromising quality and global compliance.
           </p>

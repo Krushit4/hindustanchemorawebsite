@@ -5,7 +5,7 @@ const values = [
   { icon: Gem, title: "Premium Purity", copy: "Raw materials vetted at source. Every batch verified with multi-stage analytical QC before dispatch." },
   { icon: ScanLine, title: "Full Traceability", copy: "Barcoded batch records, certificate of analysis and digital documentation accompany every shipment." },
   { icon: Truck, title: "Global Logistics", copy: "Integrated warehousing and cold-chain ready logistics reaching 40+ countries on schedule." },
-  { icon: Leaf, title: "Sustainable Practices", copy: "Low-emission manufacturing, recyclable packaging options and ISO 14001 certified processes." },
+  { icon: Leaf, title: "Sustainable Practices", copy: "Provide low-emission, recyclable packaging options." },
   { icon: HeartHandshake, title: "Partnership First", copy: "Long-term supply agreements, transparent pricing and dedicated account managers for every client." },
   { icon: Headset, title: "24 × 7 Support", copy: "Technical experts and commercial teams on call — resolving urgencies before they reach your line." },
 ];

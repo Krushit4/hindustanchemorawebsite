@@ -18,7 +18,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-sm text-neutral-400 leading-relaxed max-w-sm">
-              Manufacturer of premium industrial chemicals and precision packaging — serving
+              Provider of premium industrial chemicals and precision packaging — serving
               forty-plus countries with ISO-certified quality and uncompromising craftsmanship.
             </p>
             <div className="flex items-center gap-3 mt-6">

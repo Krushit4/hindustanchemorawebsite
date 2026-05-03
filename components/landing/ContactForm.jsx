@@ -87,9 +87,9 @@ export default function ContactForm() {
           </p>
 
           <div className="mt-12 space-y-6">
-            <ContactRow icon={Mail} label="Email us" value="sales@hindustanchemora.com" testid="contact-email" />
-            <ContactRow icon={Phone} label="Call us" value="+91 22 0000 0000" testid="contact-phone" />
-            <ContactRow icon={MapPin} label="Visit" value="Mumbai · Gujarat · Global" testid="contact-location" />
+            <ContactRow icon={Mail} label="Email us" value="sales@hindustanchemora.in" testid="contact-email" />
+            <ContactRow icon={Phone} label="Call us" value="+91 9004776905" testid="contact-phone" />
+            <ContactRow icon={MapPin} label="Visit" value="Mumbai · Global" testid="contact-location" />
           </div>
         </div>
 
