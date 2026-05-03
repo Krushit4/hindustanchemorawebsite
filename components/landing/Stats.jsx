@@ -17,20 +17,6 @@ const stats = [
     label: "Countries",
     description: "Trusted by manufacturers, labs and distribution partners across Asia, Europe, Middle East and Americas.",
   },
-  {
-    icon: ShieldCheck,
-    title: "Certifications",
-    value: "ISO 9001",
-    label: "14001 · 45001",
-    description: "Accredited to international standards for quality, environmental management and occupational safety.",
-  },
-  {
-    icon: FlaskConical,
-    title: "R&D Laboratory",
-    value: "In-house",
-    label: "Analytical QC",
-    description: "Dedicated laboratory with HPLC, GC-MS and ICP-OES instrumentation for batch-level traceability.",
-  },
 ];
 
 export default function Stats() {
@@ -57,7 +43,7 @@ export default function Stats() {
 
         <div className="thin-rule mb-16" />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-ink-600">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-px bg-ink-600">
           {stats.map((s) => (
             <div
               key={s.title}

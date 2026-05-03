@@ -38,7 +38,7 @@ export default function Footer() {
 
           <FooterCol title="Products" items={["Industrial Chemicals", "Specialty Chemicals", "Packaging Films", "Drums & Containers", "Custom Packaging"]} />
           <FooterCol title="Company" items={["About Us", "Manufacturing", "Certifications", "Sustainability", "Careers"]} />
-          <FooterCol title="Contact" items={["sales@hindustanchemora.com", "+91 9004776905", "Mumbai · Gujarat", "Global Distribution"]} />
+          <FooterCol title="Contact" items={["sales@hindustanchemora.in", "+91 9004776905", "Mumbai · Global", "Global Distribution"]} />
         </div>
 
         <div className="thin-rule my-12" />
